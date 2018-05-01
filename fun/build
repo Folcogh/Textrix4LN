@@ -1,0 +1,8 @@
+#!/bin/sh
+cd $(dirname $0)
+
+tigcc fun.s -o fun
+
+rm -f *.o *~ \#*\#
+
+
